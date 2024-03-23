@@ -16,7 +16,7 @@ const config: Config = {
       lg: { max: "1023px" },
       md: { max: "760px" },
       sm: { max: "600px" },
-      xs: { max: "420px" },
+      xs: { max: "340px" },
     },
   },
   plugins: [],

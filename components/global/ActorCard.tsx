@@ -9,7 +9,7 @@ type ActorCardProps = {
 const ActorCard = ({ actor }: ActorCardProps) => {
   return (
     <div className="w-full pr-4 sm:pr-3">
-      <div className="w-full h-[300px] lg:h-[250px] relative">
+      <div className="w-full h-[300px] lg:h-[250px] xs:h-[240px] relative">
         <Image priority style={{ objectFit: "cover" }} className="rounded-md" fill src={`https://image.tmdb.org/t/p/original/${actor.profile_path}`} alt={actor.name} />
       </div>
       <div className="py-4">

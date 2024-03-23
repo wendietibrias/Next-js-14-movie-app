@@ -16,7 +16,7 @@ const MovieCard = ({ movie }: MovieCardProps) => {
   return (
     <Link href={`/${movie.id}`}>
       <div className="w-full pr-2 relative">
-        <div className="w-full lg:h-[280px] h-[350px] rounded-md relative">
+        <div className="w-full lg:h-[280px] xs:h-[240px] h-[350px] rounded-md relative">
           <Image fill sizes="100%" priority style={{ objectFit: "cover" }} alt={movie.title} className="rounded-md" src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} />
           <p className="text-[11px] absolute top-2 right-3 w-[30px] h-[30px] flex justify-center items-center rounded-full bg-indigo-400 text-white font-semibold uppercase">{movie.original_language}</p>
         </div>

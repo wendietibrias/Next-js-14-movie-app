@@ -27,7 +27,7 @@ const MovieDetailHero = ({ movieId }: MovieDetailHeroProps) => {
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
       }}
-      className="w-full h-[100vh] relative "
+      className="w-full h-[100vh] xs:py-5 xs:overflow-y-scroll relative"
     >
       <div className="w-full h-full bg-gray-900/50 flex justify-center items-center">
         <div className="max-w-[80%] lg:max-w-[90%] sm:max-w-full sm:px-3 sm:flex-col sm:items-center flex items-start gap-x-7">

@@ -19,7 +19,7 @@ const MovieDetail = ({ params }: ParamsProps) => {
       <Navbar />
       <div className="p-0">
         <MovieDetailHero movieId={params.id} />
-        <div className="max-w-[80%] lg:max-w-[90%] sm:max-w-full mx-auto p-5">
+        <div className="max-w-[80%] lg:max-w-[90%] sm:max-w-full mx-auto sm:px-3">
           <MovieCredit movieId={params.id} />
           <SimilarMovie movieId={params.id} />
         </div>
